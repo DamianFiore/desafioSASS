@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  color: #ff9900;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 25px;
+}
+
+header a {
+  font-weight: bold;
+}
+
+main {
+  background-color: grey;
+}
+
+main p {
+  color: red;
+}
+
+main h2 {
+  color: blue;
+}
+
+main img {
+  width: 800px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer h3 {
+  color: yellow;
+}
+
+footer p {
+  color: blueviolet;
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,43 @@
+$color1:rgb(255, 153, 0);
+$widthimagenes: 800px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    h1{
+        color: $color1;
+    }
+    ul{
+        list-style:none;
+        display: inline-flex;
+        gap: 25px;
+    }
+    a{
+        font-weight: bold;
+    }
+    background-color: black;
+}
+main{
+    background-color: grey;
+    p{
+        color: red;
+    }
+    h2{
+        color: blue;
+    }
+    img{
+        width: $widthimagenes;
+    }
+}
+footer{
+    background-color: black;
+    h3{
+        color: yellow;
+    }
+    p{
+        color: blueviolet;
+    }
+}
